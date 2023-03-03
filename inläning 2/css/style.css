@@ -1,0 +1,198 @@
+
+body {
+
+    background-image: url("/image/12345.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+
+}
+
+
+:root {
+    --primary-color:  #ddd;
+    --secondary-color: rgb(6, 6, 6) ;
+    --accent-color-1:  rgb(213, 187, 187);
+    --accent-color-2:  #4CAF50;
+    --accent-color-3: rgba(243, 238, 245, 0.5) ;
+    --accent-color-4: #ccc;
+    --box-style: 10px;
+    --box-style-2: 5px;
+
+}
+
+
+
+
+
+
+h1 {
+
+
+    text-shadow: 2px 2px var(--primary-color);
+    font-size: 4em;
+     /* ext-shadow: 2px 2px #ddd;  */
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px var(--accent-color-3)
+    
+
+    
+
+  }
+
+
+  h2{
+
+    font-size: 2em;
+    text-shadow: var(--primary-color);
+    /* text-shadow: 2px 2px #ddd; */
+    text-transform: uppercase;
+    /* text-shadow: 2px 2px 2px rgb(159, 157, 154); */
+    text-shadow: 2px 2px 2px var(--accent-color-3);
+    display: grid;
+    
+
+    
+
+
+  }
+
+ 
+    
+    
+    p {
+        font-size: 3ex;
+        color: var(--secondary-color);
+        display: grid;
+        
+    
+        /* color: rgb(8, 8, 8) ; */
+        
+
+
+    }
+
+    h3{
+        color: var(--accent-color-1)
+
+       /*  color: rgb(213, 187, 187) ; */
+
+
+    }
+
+
+    h4{
+        font-size: 1em;
+        text-transform: uppercase;
+        /* text-shadow: 2px 2px 2px rgb(5, 5, 4); */
+        text-shadow: 2px 2px 2px var(--primary-color);
+        margin-top: 150px;
+        
+
+    }
+
+
+
+    img{
+
+    width: 300px;
+    height: 300px;
+    }
+
+
+    h4{
+     margin-right:0px;
+     margin-top: 300px;
+
+
+    }
+
+    .fa-instagram, a{
+        width: 3vh;
+        /* color: black; */
+        color: var(--secondary-color);
+    
+        
+    }
+
+    nav  {
+        float: right;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+        
+        
+        
+    }
+
+
+    nav a {
+        color: var(--secondary-color);
+        /* color:black; */
+        font-size: 20px;
+        
+    }
+    
+    nav a:hover{
+        /* color: white; */
+        color: var(--primary-color);
+
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        max-width: 400px;
+        margin-top: 30px;
+      
+      }
+      
+      .form-group {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+      }
+      
+      label {
+        margin-bottom: 5px;
+      }
+
+      .menu-item{
+        display: grid;
+        flex-wrap: wrap;
+      }
+
+
+
+
+input[type="text"],
+input[type="date"],
+input[type="time"],
+textarea {
+  padding: var(--box-style-2);
+  border-radius: 4px;
+  border-radius: 4px;
+  border: 1px solid var(---accent-color-4);
+  
+}
+
+button[type="submit"] {
+  background-color: var(--accent-color-2);
+  color: var(--primary-color);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: var(--box-style);
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+    
+
+
+
+ 
